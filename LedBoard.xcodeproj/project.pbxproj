@@ -14,6 +14,7 @@
 		59535DD42A2DD720003C6DEB /* LedBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59535DD22A2DD720003C6DEB /* LedBoard.xcdatamodeld */; };
 		59535DD62A2DD720003C6DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59535DD52A2DD720003C6DEB /* Assets.xcassets */; };
 		59535DD92A2DD720003C6DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59535DD72A2DD720003C6DEB /* LaunchScreen.storyboard */; };
+		59535DE12A2DE3B9003C6DEB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59535DE02A2DE3B9003C6DEB /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		59535DD52A2DD720003C6DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59535DD82A2DD720003C6DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59535DDA2A2DD720003C6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59535DE02A2DE3B9003C6DEB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				59535DD72A2DD720003C6DEB /* LaunchScreen.storyboard */,
 				59535DDA2A2DD720003C6DEB /* Info.plist */,
 				59535DD22A2DD720003C6DEB /* LedBoard.xcdatamodeld */,
+				59535DE02A2DE3B9003C6DEB /* SettingViewController.swift */,
 			);
 			path = LedBoard;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59535DE12A2DE3B9003C6DEB /* SettingViewController.swift in Sources */,
 				59535DCE2A2DD720003C6DEB /* ViewController.swift in Sources */,
 				59535DCA2A2DD720003C6DEB /* AppDelegate.swift in Sources */,
 				59535DD42A2DD720003C6DEB /* LedBoard.xcdatamodeld in Sources */,
