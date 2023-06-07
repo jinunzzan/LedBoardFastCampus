@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         self.contentLabel.textColor = .yellow
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
 }
-

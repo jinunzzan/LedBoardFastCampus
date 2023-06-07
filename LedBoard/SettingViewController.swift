@@ -10,9 +10,11 @@ import UIKit
 class SettingViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
+    
     @IBOutlet weak var yellowBtn: UIButton!
     @IBOutlet weak var purpleBtn: UIButton!
     @IBOutlet weak var greenBtn: UIButton!
+    
     @IBOutlet weak var blackBtn: UIButton!
     @IBOutlet weak var blueBtn: UIButton!
     @IBOutlet weak var orangeBtn: UIButton!
@@ -38,12 +40,14 @@ class SettingViewController: UIViewController {
     
     @IBAction func tapBackgroundColorBtn(_ sender: UIButton) {
         if sender == self.blackBtn{
-            self.changeTextColor(color: .black)
+            self.chageBackgroundColor(color: .black)
         } else if sender == self.blueBtn{
-            self.changeTextColor(color: .blue)
+            self.chageBackgroundColor(color: .blue)
         } else {
-            self.changeTextColor(color: .orange)
-        }    }
+            self.chageBackgroundColor(color: .orange)
+        }
+        
+    }
     
     @IBAction func tapSaveBtn(_ sender: UIButton) {
     }
@@ -54,7 +58,7 @@ class SettingViewController: UIViewController {
     }
     private func chageBackgroundColor(color: UIColor){
         self.blackBtn.alpha = color == UIColor.black ? 1: 0.2
-        self.blackBtn.alpha = color == UIColor.black ? 1: 0.2
+        self.blueBtn.alpha = color == UIColor.black ? 1: 0.2
         self.orangeBtn.alpha = color == UIColor.black ? 1: 0.2
     }
 }

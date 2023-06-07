@@ -184,9 +184,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="WLa-vK-6qI" kind="show" id="Myo-Te-CSS"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3h7-g2-sYM"/>
@@ -220,22 +217,6 @@
             </objects>
             <point key="canvasLocation" x="465" y="-115"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Fad-g2-hi1">
-            <objects>
-                <viewController id="WLa-vK-6qI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KMC-5W-Out">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Grm-6u-AP5"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="AEh-aK-Xrp"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zyr-Qp-cwJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1173" y="-234"/>
-        </scene>
     </scenes>
     <resources>
         <image name="black_circle" width="42.666667938232422" height="42.666667938232422"/>
@@ -246,9 +227,6 @@
         <image name="yellow_circle" width="42.666667938232422" height="42.666667938232422"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
